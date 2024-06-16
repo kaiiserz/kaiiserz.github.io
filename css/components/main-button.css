@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     font-family: "Fira Code";
     background-color: #ff6b81;
@@ -13,13 +13,13 @@
     font-weight: 500;
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.06);
     transition: 500ms;
     cursor: pointer;    
 }
 
-.button:not(:hover) {
+.main-button:not(:hover) {
     transform: scale(1);
     transition: 500ms;
     cursor: default;
